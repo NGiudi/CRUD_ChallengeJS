@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: #121212;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 50px;
+}
+
+h2 {margin-bottom: 15px;}
+
+.pb-1 {padding-bottom: 1rem;}
+.pr-1 {padding-right: 10px;}
+
+
+.back-nav{
+  background-color: rgb(47, 133, 211);
+  box-shadow: 0px 0px 6px  #242424;
+  width: 100%;
+}
+  .nav-ul{
+    list-style: none;
+    margin: auto;
+    width: 80%;
+  }
+    .nav-ul li{
+      display: inline-block;
+    }
+      .nav-ul li .nav-item{ 
+        border-bottom: solid 3px rgb(47, 133, 211);
+        color: #f0f0f0;
+        display: inline-block;
+        font-weight: 600;
+        padding: 15px 30px;
+        text-decoration: none;
+      }
+        .nav-ul li .nav-item:hover{
+          border-bottom: solid 3px #f0f0f0;
+        }
+
+/*Home*/
+.card-box{
+  justify-content: space-around;
+  margin: 50px auto;
+  width: 80%;
+}
+  .card-box .card-content{
+    background-color: rgba(47, 133, 211, .5);
+    padding-left: 40px;
+  }
+  .card-box .card-content .balance-title{
+    font-size: calc(.7rem + .4vw);
+  }
+  .card-box .card-content .balance{
+    font-size: calc(1.5rem + .4vw);
+    margin-top: 10px;
+  }
+
+/*ABM*/
+.newMovBtn{
+  margin: 20px auto 10px auto;
+  padding: 10px;
+  text-align: end;
+  width: 80%;
+}
+
+.table-container{
+  margin: auto;
+  max-width: 1200px;
+  width: 95%;
+}
+  .table-title{
+    font-size: calc(1.4rem + .1vw);
+    padding-left: 16px;  
+  }
+  .filter-bar{
+    margin: 20px auto;
+    text-align: end;
+    width: 90%;
+  }
+    .filter-bar .text{
+      font-size: 1.2rem;
+      margin-right: 15px;
+    }
+  .w-table{
+    margin: auto;
+    width: 95%;
+  }
+
+
+.modal{
+  background-color: #fafafa;
+  box-shadow: 5px 4px 17px -4px #121212;
+  left: 50%;
+  max-width: 350px;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 50%;  
+  transform: translate(-50%,-50%);
+  width: 80%;
+}
+  .modal h3{
+    font-size: calc(1rem + .4vw);
+    padding: 20px 0;
+    text-align: center;
+  }
+  .modal .inputMaterial {width: 100%;}
+
+
+@media screen and (max-width: 500px){
+    .table-title{
+      margin-bottom: 20px;
+      padding-left: 0;  
+      text-align: center;
+    }
+    .w-table{
+      width: 100%;
+    }
+}
