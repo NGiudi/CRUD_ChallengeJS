@@ -351,7 +351,7 @@ function Crud() {
 
   return (
       <Fragment>
-        <div class="newMovBtn">
+        <div className="newMovBtn">
           <Button onClick={openCloseModalAdd} color="primary" variant="contained">
             <AddIcon/> 
             <p className="btn">Nuevo Movimiento</p>
