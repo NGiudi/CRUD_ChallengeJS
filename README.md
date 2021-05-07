@@ -5,6 +5,8 @@ permitir crear y editar ingresos y egresos de dinero, y mostrar un balance resul
 operaciones registradas.
 
 ## Secciones
+### Login
+Formulario de registro y acceso para autentificar el usuario y poder mostrar la información correspondiente al usuario. 
 
 ### Home
 La pantalla de inicio deberá mostrar el balance actual, es decir, el resultante de los ingresos 
@@ -18,6 +20,6 @@ y egresos de dinero cargados, y un listado de los últimos 10 registrados.
   * Filtrado por categoría.
 
 ## Tecnologías aplicadas
-  * API en Node.js con express.
+  * API en Node.js con express y sequelize.
   * Frontend en React.js
-  * Peticiones AJAX al backend.
+  * Peticiones AJAX.
