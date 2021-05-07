@@ -6,7 +6,7 @@ operaciones registradas.
 
 ## Secciones
 ### Login
-Formulario de registro y acceso para autentificar el usuario y poder mostrar la información correspondiente al usuario. 
+Formulario de registro y acceso para autentificar el usuario y poder mostrar la información correspondiente. 
 
 ### Home
 La pantalla de inicio deberá mostrar el balance actual, es decir, el resultante de los ingresos 
