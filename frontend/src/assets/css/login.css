@@ -1,0 +1,59 @@
+.optionSelected{
+  border-bottom: solid 3px #3f51b5;
+}
+
+.optionHover{
+  border-bottom: solid 3px rgba(255, 255, 255, 0.3);
+}
+  .optionHover:hover{
+    border-bottom: solid 3px rgba(63,81,161,0.7);
+  }
+
+.form-error{
+  margin: auto;
+  width: 90%;
+}
+
+.boxLogin{
+  margin: 100px auto;
+  max-width: 400px;
+  padding: 30px 0 30px 0;
+  text-align: center;
+  width: 90%;
+}
+  .boxLogin .link{
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+    .boxLogin .link:hover{
+      transform: scale(1.05);
+    }
+    
+.options{
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+  .options h2{
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 50%;
+  }
+
+.formLogin{
+  text-align: start;
+  margin: 20px auto 30px auto;
+  width: 80%;
+}
+  .formLogin h3{
+    font-size: 1rem;
+  }
+  .formLogin .inputMaterial{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+  }

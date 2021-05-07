@@ -1,0 +1,4 @@
+{
+    "BASE_URL": "http://localhost:3050",
+    "CRYPT_PASSWORD": "frase secreta"
+}

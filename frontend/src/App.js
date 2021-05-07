@@ -1,23 +1,22 @@
 import React from "react";
-import {createMuiTheme, ThemeProvider} from '@material-ui/core' 
-import Nav from './components/Nav';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+
+import Home from './pages/Home';
+import Crud from './pages/Crud';
+import Login from './pages/Login';
 
 //styles
 import './assets/css/styles.css';
 
-
-const theme = createMuiTheme({
-  palette: {
-    primary: {main: '#81c784'},
-    secondary: {main: '#d32f2f'}
-  }
-});
-
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Nav/>
-    </ThemeProvider>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Login}/>
+        <Route exact path="/home" component={Home}/>
+        <Route exact path="/crud" component={Crud}/>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
