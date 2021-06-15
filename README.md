@@ -1,4 +1,4 @@
-# ChallengeJS CRUD
+# CRUD_ChallengeJS
 ## Objetivo
 Desarrollar una aplicación para administración de presupuesto personal. La misma debe
 permitir crear y editar ingresos y egresos de dinero, y mostrar un balance resultante de las
